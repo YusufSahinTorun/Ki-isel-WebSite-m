@@ -1,0 +1,18 @@
+<Proje: Yusuf Şahin Törün Websitesi>
+7 Adet Sayfası olan bir kişisel websitesi oluşturulacak.Sayfaların içeriği;
+*Hakkında:
+Bu sayfanın içeriğinde kendime ait hobiler , etkinlikler vb.(bazı linkler, müzik türleri...) bulunacak
+*Eğitim Bilgileri:
+Bu sayfanın içeriğinde bir nevi cv oluşturulacak.
+*Şehrim(Sivas):
+Bu sayfanın içeriğinde Sivas ile ilgili temel bilgiler, gezilebilecek bazı mekanlar, Aşık Veysel gibi Sivas'a
+ait kült terimlerin küçük çapta bilgilendirilmesi yapılacak.(örneğin Haber sitesinin linki...)⁫
+*Mirasımız(Sivasspor):
+Bu sayfanın içeriğinde Sivasspor ile ilgili bazı bilgilendirmeler yapılacak.
+*İlgi Alanları:
+Bu sayfanın içeriği; ilgilendiğim spor dalları, çalabildiğim müzik aletleri vb. ile doldurulacak.
+*Giriş Yap:
+Bu sayfanın içeriğinde kayıtlı tutulan kullanıcı bilgileri ile siteye giriş yapılması istenilecek. bilgilerin kontrolü sağlanacak. 
+*iletişim:
+Bu sayfanın içeriğinde formlar ile tutulacak kullanıcı girdisi bulunacak.
+
