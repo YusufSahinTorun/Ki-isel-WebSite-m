@@ -140,3 +140,23 @@
     background: rgba(32, 82, 82, 0.5);
     padding: 20px;
 }
+.girisyap1 {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background: url(girisekraniwp.jpg);
+    background-size: cover;
+}
+.girisyap2 {
+    
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    background: rgba(46, 76, 109, 0.3);
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+}
