@@ -67,14 +67,14 @@
     background-size: cover;
 }
 .kolon-right {
-    margin-left: 0;
+    margin-left: 0 !important;
     padding: 100px;
     text-align: center;   
     box-sizing: border-box;
     position: relative;
 }
 .kolon-right-fixed {
-    margin-right: 0;
+    margin-right: 0 !important;
     padding: 100px;      
     text-align: center;   
     box-sizing: border-box;
@@ -162,7 +162,7 @@
 }
 .page3-header {
     background-image: url(page3-bg.jpg);
-    width: 100%;
+    width: 100vw !important;
     height: 80vh;
     position: relative;
     background-size:cover;
@@ -182,3 +182,37 @@
     text-align: center;
     margin-left: auto;
 }
+.mirasimiz-header {
+    background-image: url(mirasımız-bg.png);
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    background-size:cover;
+    background-position: center;
+}
+.kolon-2-1 {
+    display: inline-block;
+    margin: 40px auto;
+    width: 45%;
+    height: 50vh;
+    background-color: #98aaaa;
+}
+.kolon-left-1-1 {
+    margin-right: 0;
+    background-image: url(mirasımız-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.kolon-left-2-1 {
+    margin-left: 0;
+    background-image: url(mirasımız-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.kolon-left-3-1 {
+    margin-right: 0;
+    background-image: url(mirasımız-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
