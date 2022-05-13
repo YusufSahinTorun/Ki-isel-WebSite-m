@@ -46,43 +46,81 @@
             
             </div>
         </nav>
-        
+
         <div class="iletisim-header">  
-            <div class="form">
+
+            
+        <div class="sections2 row">
+            <form class="form" >
+                <h1 class="iletisim-head">İletişim</h1>
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1"></span>
-                    <input type="text" class="form-control" placeholder="İsminiz" aria-label="Username" aria-describedby="basic-addon1">
+                    <input type="text" id="name1" class="form-control" placeholder="İsminiz" aria-label="Username" aria-describedby="basic-addon1">
                   </div>
                   
                   <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="E-Posta Adresiniz" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="e-posta" placeholder="E-Posta Adresiniz" aria-label="Recipient's username" aria-describedby="basic-addon2">
                   </div>
                     
                  <select class="mb-2 form-select" id="floatingSelect" aria-label="Floating label select example">
-                      <option selected>Cinsiyetiniz</option>
-                      <option value="Kadın">Erkek</option>
-                      <option value="Erkek">Kadın</option>
+                      <option value="Erkek">Erkek</option>
+                      <option value="Kadın">Kadın</option>
                 </select>
 
                     <div class="mt-3 input-group mb-3">
                     <span class="input-group-text" id="basic-addon2"></span>
-                    <input type="text" class="form-control" placeholder="Yaşınız" aria-label="Old" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control" id="yas" placeholder="Yaşınız" aria-label="Old" aria-describedby="basic-addon1">
                   </div>
                
                   <div class="input-group">
                     <span class="input-group-text">Mesajınız</span>
-                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                    <textarea id="mesaj" class="form-control" aria-label="With textarea"></textarea>
                   </div>
-                  <div class="mt-4 button-1">
-                    <a target="_blank" href="https://www.kulturportali.gov.tr/turkiye/sivas/neyenir?ilId=55&keyword=&etiket=&hariciEtiket=&kategori=0&gorsel=0&sayfa=1&sayi=12">
-                        <button type="button" class="btn btn-light">Gönder</button>
-                    </a> 
+                  <div class="mt-4 button-1">                 
+                    <button type="submit" class="btn btn-light">Gönder</button>  
                 </div>
+            </form>
+            <div class="bilgi">  
+
+                <h1 class="iletisim-head">Bilgileriniz</h1>
+    
+            <div class="form2">
+                <table class="table border border-3 border-radius-2">
+            <tbody>
+          
+                <tr>
+            <td><label for="isim2"><b>İsminiz :</b></label></td>
+            <td><p id="isim2"></p></td>
+            </tr>
+            <tr>
+              <td><label for="yas1"><b>Yaşınız :</b></label></td>
+              <td><p id="yas1"></p></td>
+              
+            </tr>
+                   <tr>
+                 <td><label for="cinsiyet2"><b>Cinsiyetiniz :</b></label></td>
+                 <td><p id="cinsiyet2"></p></td>
+            </tr>
+            <tr>
+                <td><label for="eposta1"><b>E-Mail :</b></label></td>
+                <td><p id="eposta1"></p></td>
+            </tr>
+            <tr>
+                <td><label for="mesaj1"><b>Mesaj :</b></label></td>
+                <td><p id="mesaj1"></p></td>
+            </tr>
+            <br>
+            </tbody>
+            </table>
+            </div>
             </div>
         </div>
+        </div>
+        
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="iletisim.js"></script>
 </body>
 </html>
