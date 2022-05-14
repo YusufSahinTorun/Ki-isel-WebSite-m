@@ -255,4 +255,50 @@
     width: 100%;
     height: 30%;
 }
-
+.page-3-header {
+    background-image: url(page-3-bg.jpg);
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    background-size:cover;
+    background-position: center;
+}
+.kolon-2-3 {
+    display: inline-block;
+    margin: 40px auto;
+    width: 45%;
+    height: 50vh;
+    background-color: #3d8d8d;
+}
+.kolon-left-1-3 {
+    margin-right: 0;
+    background-image: url(page-3-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.kolon-left-2-3 {
+    margin-left: 0;
+    background-image: url(page-3-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.kolon-left-3-3 {
+    margin-right: 0;
+    background-image: url(page-3-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.kolon-right-3 {
+    margin-left: 0 !important;
+    padding: 100px;
+    text-align: center;   
+    box-sizing: border-box;
+    position: relative;
+}
+.kolon-right-fixed-3 {
+    margin-right: 0 !important;
+    padding: 100px;      
+    text-align: center;   
+    box-sizing: border-box;
+    position: relative;
+}
