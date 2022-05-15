@@ -19,7 +19,7 @@ if(isset($_POST['username'])){
     $index = strpos($username, "@sakarya.edu.tr");
     
     if($username == $user && $password == $pass){
-        Yonlendir("Websitesi.html",3);
+        Yonlendir("index.html",3);
         echo "Hoşgeldiniz Kullanıcı " .$_POST['password'];
         
     }
